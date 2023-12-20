@@ -1,0 +1,54 @@
+.header {
+    background: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    top: 0;
+    left: 0;
+}
+
+img {
+    max-height: 80px;
+}
+
+.logo-link {
+    border: none;
+    margin-left: 150px;
+}
+
+.logo {
+    height: 50px;
+}
+
+li.menu-item {
+    margin: 0 150px 0 0px;
+}
+
+.posts-title h2 {
+    margin-bottom: 15px;
+}
+
+.page {
+    position: fixed;
+    bottom: 105px; /* Adjust the distance from the bottom as needed */
+    right: 310px; /* Adjust the distance from the right as needed */
+}
+
+.footer {
+    background-color: #729343;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+.copyright {
+    font-size: 15px;
+    padding: 25px;
+}
+
+p {
+    margin: 0;
+}

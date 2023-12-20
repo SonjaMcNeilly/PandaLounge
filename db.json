@@ -1,0 +1,158 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "password": "admin"
+    },
+    {
+      "id": "poo",
+      "password": "pee"
+    },
+    {
+      "id": "goat",
+      "password": "goat"
+    },
+    {
+      "id": "tester",
+      "password": "tester"
+    },
+    {
+      "id": "test",
+      "password": "test"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "username": "admin",
+      "text": "example\n",
+      "upvotes": 4,
+      "title": "example",
+      "comments": [
+        {
+          "userId": "admin",
+          "body": "hello",
+          "parentId": null
+        },
+        {
+          "userId": "admin",
+          "body": "dwd",
+          "parentId": null,
+          "id": 4
+        },
+        {
+          "userId": "admin",
+          "body": "Awesome",
+          "parentId": null,
+          "id": 1
+        },
+        {
+          "userId": "poo",
+          "body": "Awesome",
+          "parentId": null,
+          "id": 3
+        },
+        {
+          "userId": "admin",
+          "body": "Awesome",
+          "parentId": 1,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "text": "example text",
+      "upvotes": 6,
+      "title": "example",
+      "comments": [
+        {
+          "userId": "admin",
+          "body": "test",
+          "parentId": null,
+          "id": 45000
+        },
+        {
+          "userId": "admin",
+          "body": "test",
+          "parentId": 45000,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "text": "example\n",
+      "upvotes": 1,
+      "title": "example",
+      "comments": [
+        {
+          "userId": "admin",
+          "body": "post",
+          "parentId": null,
+          "id": 225000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "username": "test",
+      "text": "example",
+      "upvotes": 3,
+      "title": "example",
+      "comments": [
+        {
+          "userId": "test",
+          "body": "test comment",
+          "parentId": null,
+          "id": 150000
+        },
+        {
+          "userId": "admin",
+          "body": "hey\n",
+          "parentId": null,
+          "id": 270000
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "username": "tester",
+      "text": "d",
+      "upvotes": 1,
+      "title": "d",
+      "comments": [
+        {
+          "userId": "tester",
+          "body": "hello",
+          "parentId": null,
+          "id": 45000
+        }
+      ]
+    },
+    {
+      "username": "tester",
+      "title": "test",
+      "text": "test",
+      "upvotes": 0,
+      "comments": [],
+      "id": 6
+    },
+    {
+      "username": "test",
+      "title": "test title",
+      "text": "test",
+      "upvotes": 0,
+      "comments": [],
+      "id": 7
+    }
+  ],
+  "likedposts": [
+    {
+      "userId": "admin",
+      "id": "2"
+    }
+  ]
+}
